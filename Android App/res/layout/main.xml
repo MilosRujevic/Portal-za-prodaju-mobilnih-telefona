@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#ffffff"
+    >
+
+<TextView  
+	android:id="@+id/textview_search_company"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/search_company"
+	android:textColor="@color/text_color"
+	android:textSize="@dimen/text_size"
+	/>
+<EditText android:id="@+id/search_company"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:hint="@string/search_company_hint"
+	/>
+
+<TextView  
+	android:id="@+id/textview_search_device"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/search_device"
+	android:textColor="@color/text_color"
+	android:textSize="@dimen/text_size"
+	/>
+<EditText android:id="@+id/search_device"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:hint="@string/search_device_hint"
+	/>
+
+<TextView  
+	android:id="@+id/textview_search_os"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/search_os"
+	android:textColor="@color/text_color"
+	android:textSize="@dimen/text_size"
+	/>
+<EditText android:id="@+id/search_os"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:hint="@string/search_os_hint"
+	/>
+
+<TextView  
+	android:id="@+id/textview_search_price"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/search_price"
+	android:textColor="@color/text_color"
+	android:textSize="@dimen/text_size"
+	/>
+<EditText android:id="@+id/search_price"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:inputType="number"
+	android:hint="@string/search_price_hint"
+	/>
+
+<Spinner
+    android:id="@+id/spinner_minmax"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/button_search"
+	android:onClick="gotoSearch" />
+</LinearLayout>

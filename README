@@ -1,0 +1,14 @@
+Veb portal za pregled i prodaju mobilnih telefona, realizacija projekta na predmetu Infrastruktura za elektronsko poslovanje (SI3IEP / IR4IEP), godina 2011/2012, Elektrotehnički fakultet u Beogradu.
+Projekat sadrzi ASP.NET veb sajt koji sadrži najviše funkcionalnosti, .NET veb servise za komunikaciju i Android aplikaciju za osnovna pretraživanja.
+
+Sajt predmeta: http://rti.etf.bg.ac.rs/rti/si3iep/
+Tehnologije: ASP.NET, C#, Android, Java
+IDE: Visual Studio 2010, NetBeans
+
+Baza podataka: portmob_db.mwb, MySQL Workbench. Iskorišćena samo delimično zato što je ASP.NET-u predata briga o zapisu korisničkih informacija.
+
+Korišćene biblioteke:
+ksoap2-android - http://code.google.com/p/ksoap2-android/
+
+Pozajmljen kod:
+ImageView with Loading Spinner - http://blog.blundell-apps.com/imageview-with-loading-spinner/

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">PortMob</string>
+	<string name="edit_message">Enter here</string>
+	<string name="button_send">Send</string>
+	<string name="button_latest_devices">Latest Devices</string>
+
+	
+	<string name="addComment">Post Comment</string>
+	<string name="button_post_comment">Post Comment</string>
+	<string name="nickname">Nickname</string>
+	<string name="pros">Pros</string>
+	<string name="cons">Cons</string>
+	
+
+	<string name="search_company">Search Company</string>
+	<string name="search_company_hint">e.g. HTC</string>
+
+	<string name="search_device">Search Device</string>
+	<string name="search_device_hint">e.g. Desire</string>
+
+	<string name="search_os">Search OS</string>
+	<string name="search_os_hint">e.g. Android</string>
+
+	<string name="search_price">Search Maximum Price in USD</string>
+	<string name="search_price_hint">e.g. 200</string>
+
+	<string name="button_search">Search</string>
+</resources>

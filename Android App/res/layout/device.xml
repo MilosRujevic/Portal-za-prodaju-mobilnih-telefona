@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/device_layout"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#ffffff"
+		>
+
+		<TextView
+			android:id="@+id/DeviceName"
+			android:layout_width="fill_parent"  
+			android:layout_height="wrap_content"
+			android:textSize="26dp" />
+
+		<com.blundell.tut.LoaderImageView
+			android:id="@+id/device_image"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+
+		<TableLayout  
+			xmlns:android="http://schemas.android.com/apk/res/android"  
+			android:id="@+id/infoTable"  
+			android:layout_width="match_parent"  
+			android:layout_height="match_parent"  
+			android:shrinkColumns="*"  
+			android:stretchColumns="*">
+				
+			<TableRow>
+				<TextView
+					android:text="Company" />
+				
+				<TextView
+					android:id="@+id/Company"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+
+			<TableRow>
+				<TextView
+					android:text="Shape" />
+			
+				<TextView
+				android:id="@+id/SpecShape"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16dp" />
+			</TableRow>
+
+			<TableRow>
+				<TextView
+					android:text="Operating system" />
+
+				<TextView
+					android:id="@+id/SpecOs"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+
+			<TableRow>
+				<TextView
+					android:text="Connectivity" />
+				<TextView
+					android:id="@+id/SpecConnectivity"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+
+			<TableRow>
+				<TextView
+					android:text="Display" />
+				<TextView
+					android:id="@+id/SpecDisplay"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+
+			<TableRow>
+				<TextView
+					android:text="Interface" />
+				<TextView
+					android:id="@+id/SpecInterface"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+
+			<TableRow>
+				<TextView
+					android:text="Camera" />
+				<TextView
+					android:id="@+id/SpecCamera"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+			
+			<TableRow>
+				<TextView
+					android:text="Memory" />
+				<TextView
+					android:id="@+id/SpecMemory"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+			
+
+			<TableRow>
+				<TextView
+					android:text="Battery" />
+				<TextView
+					android:id="@+id/SpecBattery"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+			
+
+			<TableRow>
+				<TextView
+					android:text="Available" />
+				<TextView
+					android:id="@+id/Available"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+			
+
+			<TableRow>
+				<TextView
+					android:text="Price" />
+				<TextView
+					android:id="@+id/Price"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16dp" />
+			</TableRow>
+
+		</TableLayout>
+
+
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/commentsTable"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">  
+    <TableRow  
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Comments"
+            android:gravity="center"
+            android:layout_span="3" />
+    </TableRow>
+	<TableRow>
+		<TextView
+			android:text="Nickname"
+            android:textStyle="bold"/>
+		<TextView
+			android:text="Pros"
+            android:textStyle="bold"/>
+		<TextView
+			android:text="Cons"
+            android:textStyle="bold"/>
+	</TableRow>
+</TableLayout>
+
+		<TextView  
+			android:id="@+id/addComment"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="@string/addComment"
+			android:textSize="18dp"
+			android:textStyle="bold"
+			/>
+
+		<EditText android:id="@+id/nickname"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/nickname" />
+
+		<EditText android:id="@+id/pros"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/pros" />
+
+		<EditText android:id="@+id/cons"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/cons" />
+
+		<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/button_post_comment"
+			android:onClick="postComment" />
+
+	</LinearLayout>
+</ScrollView>
